@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+
+.swiper-container {
+  width: 200px;
+}
+
+.swiper-wrapper {
+  padding-inline-start: 0;
+}
+
+.swiper-pagination {
+  bottom: 0;
+  padding-bottom: 19px;
+}
+
+.swiper-button-prev {
+  margin-left: 200px;
+}
+
+.swiper-button-next {
+  margin-right: 200px;
+}
+
+.main-carousel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 408px;
+}
+
+.thumbs {
+  width: 163px;
+  height: 170px;
+}
+
+#thumbs {
+  max-width: 500px;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#designs {
+  width: 192.6px;
+  height: 60px;
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+}
+
+/* html {
+  overflow-x: hidden;
+} */
+
+body {
+  margin: 0px;
+  margin-right: -2px;
+  padding: 0px;
+  font-family: Dosis;
+  color: white;
+  font-size: 22px;
+  overflow-x: hidden;
+}
+
+#banner-image {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 80px;
+  margin-bottom: -1px;
+}
+
+#about-ledgers {
+  display: block;
+  margin: auto;
+}
+
+#rarity-title {
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+}
+
+#traits {
+  display: block;
+  margin: auto;
+}
+
+#tiers-text {
+  display: block;
+  margin: auto;
+}
+
+.centered {
+  display: block;
+  margin: auto;
+}
+
+#team-text {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#team-photo {
+  padding: 20px;
+}
+
+.responsive {
+  width: 500px;
+  height: 500px;
+}
+
+.responsive-tiers {
+  width: 450px;
+  height: 231px;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 1121px) {
+  .responsive {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  .responsive-tiers {
+    width: 75%;
+    height: auto;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .main-carousel {
+    width: 60%;
+    height: auto;
+  }
+  .thumbs {
+    width: 100%;
+    height: auto;
+  }
+  #thumbs {
+    max-width: 90%;
+  }
+  .swiper-button-prev {
+    margin-left: 20px;
+  }
+  .swiper-button-next {
+    margin-right: 20px;
+  }
+}
+
+.ledgers-logo {
+  width: 150px;
+  height: 50;
+}
+
+@media screen and (max-width: 768px) {
+  .ledgers-logo {
+    width: 28%;
+    height: auto;
+  }
+}
+
+.black-text {
+  color: black;
+}
+
+.bigger {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
