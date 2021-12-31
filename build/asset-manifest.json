@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e9e124cd.css",
+    "main.js": "/static/js/main.49d59ab9.js",
+    "static/media/banner.png": "/static/media/banner.bf2b04cf987c202121cb.png",
+    "static/media/beder.png": "/static/media/beder.4d290e855fd7b860bfbf.png",
+    "static/media/theo.png": "/static/media/theo.47790b5ff8ee77682a25.png",
+    "static/media/rarity-image.png": "/static/media/rarity-image.96c4bcbb92590bc4c4e7.png",
+    "static/media/mike.png": "/static/media/mike.75da53b677676fbbf731.png",
+    "static/media/3.png": "/static/media/3.37221c00dc75127e48f5.png",
+    "static/media/blue-robot.png": "/static/media/blue-robot.4eb850bce4983b80c586.png",
+    "static/media/1.png": "/static/media/1.ab5dcd1fd414db92f811.png",
+    "static/media/4.png": "/static/media/4.d767fa3db59437cf54f6.png",
+    "static/media/2.png": "/static/media/2.59bfa62fde642c3006f2.png",
+    "static/media/dezigns.png": "/static/media/dezigns.b9e60a14fe318e178f9e.png",
+    "static/media/5.png": "/static/media/5.1d97d59fdbf22b468cb2.png",
+    "static/media/tiers.png": "/static/media/tiers.ae19f33f0a838392bd13.png",
+    "static/media/about-ledgers.png": "/static/media/about-ledgers.0c2693f943e553a8820b.png",
+    "static/media/instagram-logo.png": "/static/media/instagram-logo.c1ab9824b68443e5363a.png",
+    "static/media/ledgers-text.png": "/static/media/ledgers-text.c1f94dcb1db00123bb28.png",
+    "index.html": "/index.html",
+    "main.e9e124cd.css.map": "/static/css/main.e9e124cd.css.map",
+    "main.49d59ab9.js.map": "/static/js/main.49d59ab9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9e124cd.css",
+    "static/js/main.49d59ab9.js"
+  ]
+}
