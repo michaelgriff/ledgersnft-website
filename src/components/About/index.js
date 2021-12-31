@@ -37,8 +37,9 @@ const About = () => {
             Our goal for The Ledge is to connect consumers with creators, and we
             think NFTs and the connectivity of Web3 are the perfect tools to
             build that connection. Being a holder of Ledgers NFT is your ticket
-            to The Ledge and all of its amenities. Come sit with us, there’s a
-            spot with your name on it!
+            to The Ledge and all of its amenities. Come play with us, come watch
+            with us, come learn with us, come sit with us, there’s a spot with
+            your name on it!
           </p>
         </AboutText>
         <ImageWrapper>

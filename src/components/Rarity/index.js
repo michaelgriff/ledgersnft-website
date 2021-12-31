@@ -31,12 +31,12 @@ const Rarity = () => {
             height={40}
           />
           <p class="black-text">
-            Our artist digitally hand-drew hundreds of different traits falling
-            into five main categories: backgrounds, bodies, TVs, screens and
-            accessories. Each trait has an associated rarity that dictates its
-            frequency of appearance within the collection. Additional ‘Rares’
-            which combine two or more of the main traits can be found within the
-            collection as well.
+            Our artist and founder, Dezigns, digitally hand-drew hundreds of
+            different traits falling into five main categories: backgrounds,
+            bodies, TVs, screens and accessories. Each trait has an associated
+            rarity that dictates its frequency of appearance within the
+            collection. Additional ‘Rares’ which combine two or more of the main
+            traits can be found within the collection as well.
           </p>
           <img
             class="centered"
@@ -48,8 +48,8 @@ const Rarity = () => {
           <p class="black-text">
             The combination of traits within your Ledgers NFT determines its
             rarity, but the background trait determines which tier it falls
-            into. Each tier has a given amount of backgrounds associated with
-            it.
+            into. The tiers have varying rarities, with <span>Power</span> being
+            the rarest tier.
           </p>
           <p class="black-text">
             Check your Ledgers NFT background to see which rarity tier you
