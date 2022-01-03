@@ -171,11 +171,28 @@ body {
   color: black;
 }
 
-.bigger {
-  font-size: 35px;
-  padding-bottom: 10px;
+#smaller {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
 }
 
 span {
   color: #425ba9;
+}
+
+.name {
+  text-decoration: none;
+}
+
+.name :hover {
+  color: #1c2551;
+}
+
+.additional {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
 }

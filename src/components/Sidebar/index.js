@@ -8,6 +8,7 @@ import {
   SidebarLink,
   SideBtnWrap,
   SidebarImage,
+  SidebarRoute,
 } from "./SidebarElements";
 import twitter_logo from "../../images/twitter-logo.png";
 import instagram_logo from "../../images/instagram-logo.png";
@@ -45,6 +46,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             <img src={discord_logo} alt={"discord"} width={32.5} height={25} />
           </SidebarImage>
         </SideBtnWrap>
+        {/* <SideBtnWrap>
+          <SidebarRoute to="/mint">MINT</SidebarRoute>
+        </SideBtnWrap> */}
       </SidebarWrapper>
     </SidebarContainer>
   );

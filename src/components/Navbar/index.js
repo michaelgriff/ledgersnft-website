@@ -70,6 +70,7 @@ const Navbar = ({ toggle }) => {
                 height={20}
               />
             </NavImage>
+            {/* <NavBtnLink to="/mint">MINT</NavBtnLink> */}
           </NavBtn>
         </NavbarContainer>
       </Nav>
