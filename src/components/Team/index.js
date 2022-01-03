@@ -5,6 +5,10 @@ import dez from "../../images/dezigns.png";
 import theo from "../../images/theo.png";
 import beder from "../../images/beder.png";
 import team_text from "../../images/team-text.png";
+import dezigns from "../../images/dezigns-text.png";
+import thecryptokeed from "../../images/thecryptokeed-text.png";
+import bagertedesign from "../../images/bagertedesign-text.png";
+import jbdr from "../../images/jbdr-text.png";
 
 const Team = () => {
   return (
@@ -27,8 +31,14 @@ const Team = () => {
               width={300}
               height={300}
             />
-            <a class="name" href="twitter.com">
-              <MemberText>Dezigns</MemberText>
+            <a href="https://twitter.com/JM00YY">
+              <img
+                class="dezigns"
+                src={dezigns}
+                alt={"dezigns"}
+                width={129.75}
+                height={40}
+              />
             </a>
             <MemberText class="smaller">Founder / Artist</MemberText>
             <MemberText id="smaller" class="additional">
@@ -46,8 +56,14 @@ const Team = () => {
               width={300}
               height={300}
             />
-            <a class="name" href="twitter.com">
-              <MemberText>TheCryptoKeed</MemberText>
+            <a href="https://twitter.com/TheCryptoKeed">
+              <img
+                class="thecryptokeed"
+                src={thecryptokeed}
+                alt={"thecryptokeed"}
+                width={259.5}
+                height={40}
+              />
             </a>
             <MemberText class="smaller">Founder / Developer</MemberText>
             <MemberText id="smaller">
@@ -65,8 +81,14 @@ const Team = () => {
               width={300}
               height={300}
             />
-            <a class="name" href="twitter.com">
-              <MemberText>BagerTeDesign</MemberText>
+            <a href="https://twitter.com/BagerTheo">
+              <img
+                class="bagertedisgn"
+                src={bagertedesign}
+                alt={"bagertedesign"}
+                width={238.5}
+                height={40}
+              />
             </a>
             <MemberText class="smaller">3D Designer</MemberText>
             <MemberText id="smaller">
@@ -83,8 +105,14 @@ const Team = () => {
               width={300}
               height={300}
             />
-            <a class="name" href="twitter.com">
-              <MemberText>JBdr</MemberText>
+            <a href="https://twitter.com/JBdrCrypto">
+              <img
+                class="jbdr"
+                src={jbdr}
+                alt={"jbdr"}
+                width={85.5}
+                height={40}
+              />
             </a>
             <MemberText class="smaller">Strategic Partner</MemberText>
             <MemberText id="smaller">

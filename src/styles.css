@@ -183,16 +183,12 @@ span {
   color: #425ba9;
 }
 
-.name {
-  text-decoration: none;
-}
-
-.name :hover {
-  color: #1c2551;
-}
-
 .additional {
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 10px;
+}
+
+p {
+  text-align: justify;
 }
