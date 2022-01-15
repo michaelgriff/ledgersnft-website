@@ -28,10 +28,10 @@ const About = () => {
           </p>
           <p>
             Although groovy on their own, Ledgers NFT goes beyond what can be
-            seen in the screen. Unsatisfied with utility of the mysterious ledge
-            that appeared, Ledgers NFT is building their own stoop, a metaverse
-            arena to house everything entertainment, and are calling it “The
-            Ledge”.
+            seen in the screen. Unsatisfied with the utility of the mysterious
+            ledge that appeared, Ledgers NFT is building their own stoop, a
+            metaverse arena to house everything entertainment, and are calling
+            it “The Ledge”.
           </p>
           <p>
             Our goal for The Ledge is to connect consumers with creators, and we
