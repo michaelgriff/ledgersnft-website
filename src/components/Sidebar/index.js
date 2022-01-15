@@ -47,7 +47,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarImage>
         </SideBtnWrap>
         {/* <SideBtnWrap>
-          <SidebarRoute to="/mint">MINT</SidebarRoute>
+          <SidebarRoute href="https://mintledgersnft.xyz">MINT</SidebarRoute>
         </SideBtnWrap> */}
       </SidebarWrapper>
     </SidebarContainer>

@@ -70,7 +70,7 @@ const Navbar = ({ toggle }) => {
                 height={20}
               />
             </NavImage>
-            {/* <NavBtnLink to="/mint">MINT</NavBtnLink> */}
+            {/* <NavBtnLink href="https://mintledgersnft.xyz">MINT</NavBtnLink> */}
           </NavBtn>
         </NavbarContainer>
       </Nav>
