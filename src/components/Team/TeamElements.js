@@ -8,8 +8,8 @@ export const TeamContainer = styled.div`
 
 export const TeamWrapper = styled.div`
   display: flex;
-  justify-content: space-evenly;
-
+  justify-content: space-around;
+  width: 100%;
   @media screen and (max-width: 1121px) {
     flex-direction: column;
     align-items: center;
@@ -17,6 +17,7 @@ export const TeamWrapper = styled.div`
 `;
 
 export const Member = styled.div`
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
