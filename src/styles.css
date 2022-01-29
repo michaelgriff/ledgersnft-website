@@ -74,6 +74,15 @@ body {
   margin-bottom: -1px;
 }
 
+#roadmap-photo {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* margin-top: 80px; */
+  margin-bottom: -1px;
+}
+
 #about-ledgers {
   display: block;
   margin: auto;
@@ -101,6 +110,11 @@ body {
 }
 
 #team-text {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#roadmap {
   padding-top: 30px;
   padding-bottom: 10px;
 }

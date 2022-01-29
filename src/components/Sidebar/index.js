@@ -28,6 +28,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="designs" onClick={toggle} smooth={true} offset={-80}>
             Designs
           </SidebarLink>
+          <SidebarLink to="roadmap" onClick={toggle} smooth={true} offset={-80}>
+            Roadmap
+          </SidebarLink>
           <SidebarLink to="rarity" onClick={toggle} smooth={true} offset={-80}>
             Rarity
           </SidebarLink>

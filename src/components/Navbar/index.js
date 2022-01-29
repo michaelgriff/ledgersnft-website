@@ -40,6 +40,11 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
             <NavItem>
+              <NavLinks to="roadmap" smooth={true} offset={-80}>
+                Roadmap
+              </NavLinks>
+            </NavItem>
+            <NavItem>
               <NavLinks to="rarity" smooth={true} offset={-80}>
                 Rarity
               </NavLinks>

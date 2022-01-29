@@ -7,6 +7,7 @@ import Rarity from "../components/Rarity";
 import Team from "../components/Team";
 import Designs from "../components/Designs";
 import Footer from "../components/Footer";
+import Roadmap from "../components/Roadmap";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,7 @@ const Home = () => {
         <About />
       </div>
       <Designs />
+      <Roadmap />
       <div id="rarity">
         <Rarity />
       </div>
