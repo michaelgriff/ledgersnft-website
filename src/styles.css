@@ -171,7 +171,7 @@ body {
 
 .ledgers-logo {
   width: 150px;
-  height: 50;
+  height: 30.4px;
 }
 
 @media screen and (max-width: 768px) {
@@ -199,4 +199,39 @@ span {
 
 p {
   text-align: justify;
+}
+
+#hidden {
+  border: 15px solid #fff;
+  border-radius: 40px;
+
+  @media screen and (max-width: 1137px) {
+    display: none !important;
+  }
+}
+
+#gold {
+  height: 60px;
+  width: 378.5px;
+  align-self: initial;
+}
+
+.float {
+  margin-top: 32px;
+
+  @media screen and (max-width: 480px) {
+    margin-top: 8px;
+  }
+}
+
+.padded {
+  padding: 0px 20px;
+}
+
+#gold {
+  width: 300px;
+  height: 200px;
+  @media screen and (max-width: 667px) {
+    display: none;
+  }
 }

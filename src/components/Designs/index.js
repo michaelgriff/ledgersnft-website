@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper } from "swiper/react/swiper";
+import { SwiperSlide } from "swiper/react/swiper-slide";
 import SwiperCore, { Navigation, Pagination, Thumbs } from "swiper";
 import "../../../node_modules/swiper/swiper-bundle.css";
 import image1 from "../../images/1.png";
