@@ -82,6 +82,9 @@ const Wrap = styled.div`
       padding: 1.8rem;
       font-size: 0.9rem;
     }
+    span {
+      margin-right: 0rem;
+    }
   }
 
   span {
