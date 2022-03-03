@@ -37,6 +37,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="team" onClick={toggle} smooth={true} offset={-80}>
             Team
           </SidebarLink>
+          <SidebarLink to="faq" onClick={toggle} smooth={true} offset={-80}>
+            FAQ
+          </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarImage href="https://twitter.com/ledgersnft">

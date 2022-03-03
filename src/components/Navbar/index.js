@@ -54,6 +54,11 @@ const Navbar = ({ toggle }) => {
                 Team
               </NavLinks>
             </NavItem>
+            <NavItem>
+              <NavLinks to="faq" smooth={true} offset={-80}>
+                FAQ
+              </NavLinks>
+            </NavItem>
           </NavMenu>
           <NavBtn>
             <NavImage href="https://twitter.com/ledgersnft">

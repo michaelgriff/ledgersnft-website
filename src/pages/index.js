@@ -8,6 +8,7 @@ import Team from "../components/Team";
 import Designs from "../components/Designs";
 import Footer from "../components/Footer";
 import Roadmap from "../components/Roadmap";
+import Faq from "../components/Faq";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +33,14 @@ const Home = () => {
       <div id="team">
         <Team />
       </div>
-      <Footer />
+      <div id="faq">
+        <>
+          <Faq />
+        </>
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };
