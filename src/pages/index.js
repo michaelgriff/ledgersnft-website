@@ -33,11 +33,11 @@ const Home = () => {
       <div id="team">
         <Team />
       </div>
-      {/* <div id="faq">
+      <div id="faq">
         <>
           <Faq />
         </>
-      </div> */}
+      </div>
       <div>
         <Footer />
       </div>
