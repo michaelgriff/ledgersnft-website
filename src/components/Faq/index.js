@@ -24,6 +24,10 @@ const Container = styled.div`
   top: 3%;
   margin: 0px 100px;
   width: 70%;
+
+  @media screen and (max-width: 768px) {
+    margin: 0px;
+  }
 `;
 
 const RoundedWrap = styled.div`
