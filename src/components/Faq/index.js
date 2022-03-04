@@ -51,6 +51,10 @@ const RoundedWrap = styled.div`
       padding: 1.8rem;
       font-size: 0.9rem;
     }
+
+    span {
+      margin-right: 0rem;
+    }
   }
   span {
     margin-right: 1.5rem;
