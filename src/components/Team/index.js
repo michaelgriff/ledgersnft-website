@@ -8,6 +8,8 @@ import diego from "../../images/diegopic.png";
 import skott from "../../images/skottpic.png";
 import ish from "../../images/ishpic.png";
 import danny from "../../images/dannypic.png";
+import edyy from "../../images/edyypic.png";
+import edyytext from "../../images/edyytext.png";
 import diegotext from "../../images/diegotext.png";
 import skotttext from "../../images/skotttext.png";
 import ishtext from "../../images/ishtext.png";
@@ -80,6 +82,8 @@ const Team = () => {
           </a>
           <MemberText>3D Designer</MemberText>
         </Member>
+      </TeamWrapper>
+      <TeamWrapper>
         <Member>
           <img
             id="team-photo"
@@ -97,10 +101,8 @@ const Team = () => {
               height={40}
             />
           </a>
-          <MemberText>Creative Strategist</MemberText>
+          <MemberText>Director of Operations</MemberText>
         </Member>
-      </TeamWrapper>
-      <TeamWrapper>
         <Member>
           <img
             id="team-photo"
@@ -127,6 +129,8 @@ const Team = () => {
           </a>
           <MemberText>Artist / Advisor</MemberText>
         </Member>
+      </TeamWrapper>
+      <TeamWrapper>
         <Member>
           <img
             id="team-photo"
@@ -141,17 +145,24 @@ const Team = () => {
           <MemberText>Marketing / Strategic Partner</MemberText>
         </Member>
         <Member>
-          <img
-            id="team-photo"
-            src={ish}
-            alt={"diego"}
-            width={300}
-            height={300}
-          />
+          <img id="team-photo" src={ish} alt={"ish"} width={300} height={300} />
           <a href="https://www.instagram.com/ishmilly/">
             <img src={ishtext} alt={"ish"} width={133.94} height={40} />
           </a>
           <MemberText>Advisor</MemberText>
+        </Member>
+        <Member>
+          <img
+            id="team-photo"
+            src={edyy}
+            alt={"edyy"}
+            width={300}
+            height={300}
+          />
+          <a href="https://twitter.com/edyy982">
+            <img src={edyytext} alt={"ish"} width={79.7} height={40} />
+          </a>
+          <MemberText>Community Manager</MemberText>
         </Member>
       </TeamWrapper>
     </TeamContainer>

@@ -11,20 +11,15 @@ const FaqSection = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 165vh;
+  height: 100%;
   background: #9abfd8;
-
-  @media screen and (max-width: 768px) {
-    height: 118vh;
-  }
+  padding: 40px 0px;
 `;
 
 const Container = styled.div`
-  position: absolute;
   top: 3%;
   margin: 0px 100px;
   width: 70%;
-
   @media screen and (max-width: 768px) {
     margin: 0px;
   }
