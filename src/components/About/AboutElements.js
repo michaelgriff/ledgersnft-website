@@ -10,7 +10,7 @@ export const AboutText = styled.div`
   padding: 70px 80px;
 
   @media screen and (max-width: 1121px) {
-    padding: 30px;
+    padding: 10px 30px;
     margin: auto;
   }
 `;
@@ -20,7 +20,7 @@ export const ImageWrapper = styled.div`
 
   @media screen and (max-width: 1121px) {
     margin-bottom: 50px;
-    margin-top: 0;
+    margin-top: 0px;
   }
 `;
 

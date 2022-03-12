@@ -4,6 +4,16 @@ import mike from "../../images/mike.png";
 import dez from "../../images/dezigns.png";
 import theo from "../../images/theo.png";
 import zach from "../../images/zach.png";
+import diego from "../../images/diegopic.png";
+import skott from "../../images/skottpic.png";
+import ish from "../../images/ishpic.png";
+import danny from "../../images/dannypic.png";
+import edyy from "../../images/edyypic.png";
+import edyytext from "../../images/edyytext.png";
+import diegotext from "../../images/diegotext.png";
+import skotttext from "../../images/skotttext.png";
+import ishtext from "../../images/ishtext.png";
+import dannytext from "../../images/introtext.png";
 import team_text from "../../images/team-text.png";
 import dezigns from "../../images/dezigns-text.png";
 import thecryptokeed from "../../images/thecryptokeed-text.png";
@@ -34,11 +44,6 @@ const Team = () => {
             />
           </a>
           <MemberText>Founder / Artist</MemberText>
-          <MemberText id="smaller">
-            A creative through and through. Tech, gaming and art lover. Web3,
-            Crypto and NFTs have opened a new door for me. My passion for tech,
-            gaming and creativity will all come to light on The Ledge.
-          </MemberText>
         </Member>
         <Member>
           <img
@@ -50,7 +55,6 @@ const Team = () => {
           />
           <a href="https://twitter.com/TheCryptoKeed">
             <img
-              class="thecryptokeed"
               src={thecryptokeed}
               alt={"thecryptokeed"}
               width={259.5}
@@ -58,11 +62,6 @@ const Team = () => {
             />
           </a>
           <MemberText>Founder / Developer</MemberText>
-          <MemberText id="smaller">
-            Passionate developer. New to the crypto and NFT space but finding
-            unique ways to apply my skills to build out The Ledge. A hard worker
-            and quick learner, excited about the steps to come. Sports fanatic.
-          </MemberText>
         </Member>
         <Member>
           <img
@@ -82,12 +81,9 @@ const Team = () => {
             />
           </a>
           <MemberText>3D Designer</MemberText>
-          <MemberText id="smaller">
-            Industrial designer turned 3D artist. Love to experiment and push
-            the limits of creativity. Committed to satisfying the consumer and
-            surprising people with things they have never seen before.
-          </MemberText>
         </Member>
+      </TeamWrapper>
+      <TeamWrapper>
         <Member>
           <img
             id="team-photo"
@@ -105,13 +101,68 @@ const Team = () => {
               height={40}
             />
           </a>
-          <MemberText>Creative Strategist</MemberText>
-          <MemberText id="smaller">
-            I want to have an impact on the world and change lives. As a high
-            level athlete, dedication, focus, and drive are no stranger to me.
-            I'm a creative mind, ready to join the great hands working to change
-            lives together.
-          </MemberText>
+          <MemberText>Director of Operations</MemberText>
+        </Member>
+        <Member>
+          <img
+            id="team-photo"
+            src={danny}
+            alt={"danny"}
+            width={300}
+            height={300}
+          />
+          <a href="https://twitter.com/Itgmiami">
+            <img src={dannytext} alt={"danny"} width={293.15} height={40} />
+          </a>
+          <MemberText>Advisor / Strategic Partner</MemberText>
+        </Member>
+        <Member>
+          <img
+            id="team-photo"
+            src={skott}
+            alt={"skott"}
+            width={300}
+            height={300}
+          />
+          <a href="https://www.instagram.com/skottmarsi/">
+            <img src={skotttext} alt={"skott"} width={188.55} height={40} />
+          </a>
+          <MemberText>Artist / Advisor</MemberText>
+        </Member>
+      </TeamWrapper>
+      <TeamWrapper>
+        <Member>
+          <img
+            id="team-photo"
+            src={diego}
+            alt={"diego"}
+            width={300}
+            height={300}
+          />
+          <a href="https://www.instagram.com/connectwithdiego/">
+            <img src={diegotext} alt={"diego"} width={290.78} height={40} />
+          </a>
+          <MemberText>Marketing / Strategic Partner</MemberText>
+        </Member>
+        <Member>
+          <img id="team-photo" src={ish} alt={"ish"} width={300} height={300} />
+          <a href="https://www.instagram.com/ishmilly/">
+            <img src={ishtext} alt={"ish"} width={133.94} height={40} />
+          </a>
+          <MemberText>Advisor</MemberText>
+        </Member>
+        <Member>
+          <img
+            id="team-photo"
+            src={edyy}
+            alt={"edyy"}
+            width={300}
+            height={300}
+          />
+          <a href="https://twitter.com/edyy982">
+            <img src={edyytext} alt={"ish"} width={79.7} height={40} />
+          </a>
+          <MemberText>Community Manager</MemberText>
         </Member>
       </TeamWrapper>
     </TeamContainer>
