@@ -77,20 +77,29 @@ const Mint = () => {
       "0xEa2968F4841Fe0f12DF5274abeae13E9B77e721f"
     );
     setClaimingNft(true);
+
     contract.methods
       .mint(amount)
-      .send({
+      .estimateGas({
         from: account,
-        to: "0xEa2968F4841Fe0f12DF5274abeae13E9B77e721f",
-        value: amount * 60000000000000000,
       })
-      .once("error", () => {
-        setClaimingNft(false);
-        setFeedback("Oops, try again later");
-      })
-      .then(() => {
-        setClaimingNft(false);
-        setFeedback("Welcome to The Ledge");
+      .then((gasAmount) => {
+        contract.methods
+          .mint(amount)
+          .send({
+            from: account,
+            to: "0xEa2968F4841Fe0f12DF5274abeae13E9B77e721f",
+            value: amount * 60000000000000000,
+            gasLimit: gasAmount,
+          })
+          .once("error", () => {
+            setClaimingNft(false);
+            setFeedback("Oops, try again later");
+          })
+          .then(() => {
+            setClaimingNft(false);
+            setFeedback("Welcome to The Ledge");
+          });
       });
   };
 
