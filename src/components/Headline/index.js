@@ -21,7 +21,7 @@ const Headline = () => {
     <HeadlineContainer>
       <div key={key}>
         <animated.div style={scrolling}>
-          <img src={airplane} alt={"airplane"} />
+          <img id="airplane" src={airplane} alt={"airplane"} />
         </animated.div>
       </div>
     </HeadlineContainer>
