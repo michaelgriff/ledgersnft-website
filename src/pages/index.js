@@ -9,6 +9,7 @@ import Designs from "../components/Designs";
 import Footer from "../components/Footer";
 import Roadmap from "../components/Roadmap";
 import Faq from "../components/Faq";
+import Headline from "../components/Headline";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,9 @@ const Home = () => {
     <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
+      <div>
+        <Headline />
+      </div>
       <Banner />
       <div id="about" class="scroll">
         <About />

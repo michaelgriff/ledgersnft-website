@@ -78,7 +78,6 @@ body {
   max-width: 100%;
   height: auto;
   display: block;
-  margin-top: 80px;
   margin-bottom: -1px;
 }
 
@@ -221,4 +220,16 @@ p {
 
 .half {
   border-radius: 20px 20px 0px 0px;
+}
+
+#airplane {
+  width: 506px;
+  height: 64px;
+}
+
+@media screen and (max-width: 768px) {
+  #airplane {
+    width: 316px;
+    height: 40px;
+  }
 }
