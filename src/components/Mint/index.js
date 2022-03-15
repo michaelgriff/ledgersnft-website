@@ -23,13 +23,15 @@ const Mint = () => {
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState("");
 
-  window.ethereum.on("accountsChanged", (accounts) => {
-    window.location.reload();
-  });
+  if (window.ethereum) {
+    window.ethereum.on("accountsChanged", (accounts) => {
+      window.location.reload();
+    });
 
-  window.ethereum.on("chainChanged", (chainId) => {
-    window.location.reload();
-  });
+    window.ethereum.on("chainChanged", (chainId) => {
+      window.location.reload();
+    });
+  }
 
   const connect = async () => {
     if (typeof window.ethereum == undefined) {
