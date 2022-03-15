@@ -41,7 +41,7 @@ const Mint = () => {
       method: "net_version",
     });
 
-    if (networkId != 4) {
+    if (networkId != 1) {
       setErrMsg("Change to Mainnet");
       return;
     }
@@ -65,7 +65,7 @@ const Mint = () => {
   };
 
   const increase = () => {
-    if (amount != 3) {
+    if (amount != 8) {
       setAmount(amount + 1);
     }
   };
