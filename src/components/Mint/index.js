@@ -74,7 +74,7 @@ const Mint = () => {
     let web3 = new Web3(window.ethereum);
     let contract = new web3.eth.Contract(
       abi,
-      "0xEa2968F4841Fe0f12DF5274abeae13E9B77e721f"
+      "0x7D2F7De261322014b656831FE5bA9A53067110a3"
     );
     setClaimingNft(true);
 
@@ -88,7 +88,7 @@ const Mint = () => {
           .mint(amount)
           .send({
             from: account,
-            to: "0xEa2968F4841Fe0f12DF5274abeae13E9B77e721f",
+            to: "0x7D2F7De261322014b656831FE5bA9A53067110a3",
             value: amount * 60000000000000000,
             gasLimit: gasAmount + 10000,
           })
