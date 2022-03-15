@@ -90,7 +90,7 @@ const Mint = () => {
             from: account,
             to: "0xEa2968F4841Fe0f12DF5274abeae13E9B77e721f",
             value: amount * 60000000000000000,
-            gasLimit: gasAmount,
+            gasLimit: gasAmount + 10000,
           })
           .once("error", () => {
             setClaimingNft(false);
