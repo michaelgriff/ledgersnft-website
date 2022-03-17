@@ -138,9 +138,7 @@ const Mint = () => {
                     +
                   </StyledRoundButton>
                 </ButtonWrap>
-                <StyledButton onClick={() => claim(amount)}>
-                  {claimingNft ? "BUSY" : "MINT"}
-                </StyledButton>
+                <StyledButton onClick={() => claim(amount)}>MINT</StyledButton>
                 <p>{feedback}</p>
               </>
             ) : (
