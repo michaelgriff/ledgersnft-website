@@ -34,10 +34,6 @@ const Mint = () => {
   }
 
   const connect = async () => {
-    if (true) {
-      setErrMsg("Sale hasn't begun");
-      return;
-    }
     if (typeof window.ethereum == undefined) {
       setErrMsg("Install Metamask");
       return;
