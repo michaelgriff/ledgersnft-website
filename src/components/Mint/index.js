@@ -138,10 +138,7 @@ const Mint = () => {
                     +
                   </StyledRoundButton>
                 </ButtonWrap>
-                <StyledButton
-                  disabled={claimingNft ? 1 : 0}
-                  onClick={() => claim(amount)}
-                >
+                <StyledButton onClick={() => claim(amount)}>
                   {claimingNft ? "BUSY" : "MINT"}
                 </StyledButton>
                 <p>{feedback}</p>
