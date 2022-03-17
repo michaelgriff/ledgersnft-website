@@ -84,6 +84,7 @@ const Mint = () => {
       .mint(amount)
       .estimateGas({
         from: account,
+        value: amount * 60000000000000000,
       })
       .then((gasAmount) => {
         contract.methods
