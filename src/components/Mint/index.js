@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import abi from "../../utils/abi.json";
 import Web3 from "web3";
 import WalletConnectProvider from "@walletconnect/web3-provider";
+import OpenApp from "react-open-app";
 import {
   Container,
   Icon,
@@ -186,13 +187,26 @@ const Mint = () => {
               </>
             ) : (
               <>
-                <StyledButton onClick={connect}>
-                  <InnerButton>
-                    CONNECT
-                    <span>&nbsp;&nbsp;</span>
-                    <img src={mm} alt={"mm"} width={20} height={20} />
-                  </InnerButton>
-                </StyledButton>
+                {window.ethereum ? (
+                  <StyledButton onClick={connect}>
+                    <InnerButton>
+                      CONNECT
+                      <span>&nbsp;&nbsp;</span>
+                      <img src={mm} alt={"mm"} width={20} height={20} />
+                    </InnerButton>
+                  </StyledButton>
+                ) : (
+                  <OpenApp href="https://metamask.app.link/dapp/theledge.io/minttheledge">
+                    <StyledButton>
+                      <InnerButton>
+                        CONNECT
+                        <span>&nbsp;&nbsp;</span>
+                        <img src={mm} alt={"mm"} width={20} height={20} />
+                      </InnerButton>
+                    </StyledButton>
+                  </OpenApp>
+                )}
+
                 <StyledButton onClick={walletConnect}>
                   <InnerButton>
                     WALLETCONNECT
