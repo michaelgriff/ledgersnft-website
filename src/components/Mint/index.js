@@ -170,7 +170,7 @@ const Mint = () => {
 
           <ColumnFlex>
             <StyledImage alt={"goldthing"} src={goldthing} />
-            <p>1 Ledgers NFT Costs 0.06 ETH</p>
+            {/* <p>1 Ledgers NFT Costs 0.06 ETH</p> */}
             {account ? (
               <>
                 <ButtonWrap>
@@ -186,36 +186,37 @@ const Mint = () => {
                 <p>{feedback}</p>
               </>
             ) : (
-              <>
-                {window.ethereum ? (
-                  <StyledButton onClick={connect}>
-                    <InnerButton>
-                      CONNECT
-                      <span>&nbsp;&nbsp;</span>
-                      <img src={mm} alt={"mm"} width={20} height={20} />
-                    </InnerButton>
-                  </StyledButton>
-                ) : (
-                  <OpenApp href="https://metamask.app.link/dapp/theledge.io/minttheledge">
-                    <StyledButton>
-                      <InnerButton>
-                        CONNECT
-                        <span>&nbsp;&nbsp;</span>
-                        <img src={mm} alt={"mm"} width={20} height={20} />
-                      </InnerButton>
-                    </StyledButton>
-                  </OpenApp>
-                )}
+              // <>
+              //   {window.ethereum ? (
+              //     <StyledButton onClick={connect}>
+              //       <InnerButton>
+              //         CONNECT
+              //         <span>&nbsp;&nbsp;</span>
+              //         <img src={mm} alt={"mm"} width={20} height={20} />
+              //       </InnerButton>
+              //     </StyledButton>
+              //   ) : (
+              //     <OpenApp href="https://metamask.app.link/dapp/theledge.io/minttheledge">
+              //       <StyledButton>
+              //         <InnerButton>
+              //           CONNECT
+              //           <span>&nbsp;&nbsp;</span>
+              //           <img src={mm} alt={"mm"} width={20} height={20} />
+              //         </InnerButton>
+              //       </StyledButton>
+              //     </OpenApp>
+              //   )}
 
-                <StyledButton onClick={walletConnect}>
-                  <InnerButton>
-                    WALLETCONNECT
-                    <span>&nbsp;&nbsp;</span>
-                    <img src={wc} alt={"wc"} width={20} height={20} />
-                  </InnerButton>
-                </StyledButton>
-                <p>{errMsg}</p>
-              </>
+              //   <StyledButton onClick={walletConnect}>
+              //     <InnerButton>
+              //       WALLETCONNECT
+              //       <span>&nbsp;&nbsp;</span>
+              //       <img src={wc} alt={"wc"} width={20} height={20} />
+              //     </InnerButton>
+              //   </StyledButton>
+              //   <p>{errMsg}</p>
+              // </>
+              <p>Sale has Ended</p>
             )}
           </ColumnFlex>
         </RowFlex>

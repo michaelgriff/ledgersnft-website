@@ -22,9 +22,9 @@ const Home = () => {
     <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <div>
+      {/* <div>
         <Headline />
-      </div>
+      </div> */}
       <Banner />
       <div id="about" class="scroll">
         <About />
