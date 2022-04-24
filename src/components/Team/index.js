@@ -106,54 +106,6 @@ const Team = () => {
         <Member>
           <img
             id="team-photo"
-            src={danny}
-            alt={"danny"}
-            width={300}
-            height={300}
-          />
-          <a href="https://twitter.com/Itgmiami">
-            <img src={dannytext} alt={"danny"} width={293.15} height={40} />
-          </a>
-          <MemberText>Advisor / Strategic Partner</MemberText>
-        </Member>
-        <Member>
-          <img
-            id="team-photo"
-            src={skott}
-            alt={"skott"}
-            width={300}
-            height={300}
-          />
-          <a href="https://www.instagram.com/skottmarsi/">
-            <img src={skotttext} alt={"skott"} width={188.55} height={40} />
-          </a>
-          <MemberText>Artist / Advisor</MemberText>
-        </Member>
-      </TeamWrapper>
-      <TeamWrapper>
-        <Member>
-          <img
-            id="team-photo"
-            src={diego}
-            alt={"diego"}
-            width={300}
-            height={300}
-          />
-          <a href="https://www.instagram.com/connectwithdiego/">
-            <img src={diegotext} alt={"diego"} width={290.78} height={40} />
-          </a>
-          <MemberText>Marketing / Strategic Partner</MemberText>
-        </Member>
-        <Member>
-          <img id="team-photo" src={ish} alt={"ish"} width={300} height={300} />
-          <a href="https://www.instagram.com/ishmilly/">
-            <img src={ishtext} alt={"ish"} width={133.94} height={40} />
-          </a>
-          <MemberText>Advisor</MemberText>
-        </Member>
-        <Member>
-          <img
-            id="team-photo"
             src={edyy}
             alt={"edyy"}
             width={300}
