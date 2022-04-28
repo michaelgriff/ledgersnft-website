@@ -10,7 +10,7 @@ export const TeamWrapper = styled.div`
   display: flex;
   justify-content: space-around;
   width: 100%;
-  @media screen and (max-width: 1121px) {
+  @media screen and (max-width: 1338px) {
     flex-direction: column;
     align-items: center;
   }

@@ -82,27 +82,6 @@ const Team = () => {
           </a>
           <MemberText>3D Designer</MemberText>
         </Member>
-      </TeamWrapper>
-      <TeamWrapper>
-        <Member>
-          <img
-            id="team-photo"
-            src={zach}
-            alt={"zach"}
-            width={300}
-            height={300}
-          />
-          <a href="https://twitter.com/Zdiggity_">
-            <img
-              class="bagertedisgn"
-              src={zdiggity}
-              alt={"bagertedesign"}
-              width={149.21}
-              height={40}
-            />
-          </a>
-          <MemberText>Director of Operations</MemberText>
-        </Member>
         <Member>
           <img
             id="team-photo"
